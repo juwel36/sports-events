@@ -8,12 +8,14 @@ import Login from "../Pages/LogIn/Login";
 
   const router = createBrowserRouter([
     {
+
       path: "/",
       element: <Root></Root>,
       children:[
 {
 path: '/',
 element: <Home></Home>,
+loader: ()=> fetch('/Data.json')
 },
 {
   path:'/login',
