@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Football Match - Premier League",
+    "image": "football.jpg",
+    "price": "50",
+    "shortDescription": "Watch a thrilling Premier League football match live!",
+    "detailedInformation": "Experience the excitement of Premier League football with top teams battling for supremacy. Enjoy world-class talent and the electric atmosphere in the stadium.",
+    "button": "Buy Tickets"
+  },
+  {
+    "id": 2,
+    "name": "Cricket T20 International",
+    "image": "cricket.jpg",
+    "price": "40",
+    "shortDescription": "Witness the fast-paced action of T20 cricket!",
+    "detailedInformation": "Don't miss the excitement of T20 International cricket. Watch your favorite teams go head-to-head in a high-intensity format that guarantees thrilling moments.",
+    "button": "Get Tickets"
+  },
+  {
+    "id": 3,
+    "name": "Tennis Grand Slam - Wimbledon",
+    "image": "tennis.jpg",
+    "price": "75",
+    "shortDescription": "Experience the elegance of Wimbledon tennis.",
+    "detailedInformation": "Enjoy the grace and precision of tennis at its finest. Wimbledon is known for its tradition, world-class players, and epic matches on grass courts.",
+    "button": "Book Seats"
+  },
+  {
+    "id": 4,
+    "name": "Basketball Championship - NBA Finals",
+    "image": "basketball.jpg",
+    "price": "60",
+    "shortDescription": "Cheer for your team in the NBA Finals!",
+    "detailedInformation": "Witness the intensity of the NBA Finals. See the best basketball players in the world compete for the championship in an electrifying atmosphere.",
+    "button": "Purchase Passes"
+  },
+  {
+    "id": 5,
+    "name": "Formula 1 Grand Prix",
+    "image": "formula1.jpg",
+    "price": "90",
+    "shortDescription": "Feel the speed at the Formula 1 Grand Prix!",
+    "detailedInformation": "Experience the adrenaline rush of Formula 1 racing. Witness high-speed cars, skilled drivers, and thrilling overtakes at iconic Grand Prix circuits.",
+    "button": "Secure Your Tickets"
+  },
+  {
+    "id": 6,
+    "name": "Golf Masters Tournament",
+    "image": "golf.jpg",
+    "price": "55",
+    "shortDescription": "Enjoy the tranquility of golf at the Masters Tournament.",
+    "detailedInformation": "Watch golf's greatest players compete at the prestigious Masters Tournament. Marvel at their skill and precision on the beautiful Augusta National Golf Club course.",
+    "button": "Get Passes"
+  }
+]
