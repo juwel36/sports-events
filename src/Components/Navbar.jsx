@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import profile from '../assets/user.png'
 
 const Navbar = () => {
@@ -42,7 +42,7 @@ const catagory =<>
           <img src={profile} />
         </div>
       </label>
-      <button className="btn btn-neutral"> Log in </button>
+    <Link to='/login'>  <button className="btn btn-neutral"> Log in </button></Link>
   </div>
 </div>
     </div>
