@@ -1,42 +1,48 @@
 [
   {
-    "profile_picture": "https://i.ibb.co/user1-profile.jpg",
+    "profile_picture": "https://i.ibb.co/V9FrjJx/team-1-1.jpg",
     "name": "John Doe",
     "comments_quantity": 15,
     "title": "The Key Elements of Successful Sports Event Planning",
-    "content": "Successful sports event planning requires meticulous attention to detail. From selecting the ideal venue to creating a compelling marketing strategy, event managers play a pivotal role in orchestrating unforgettable experiences for both athletes and fans. In this blog post, we'll delve deep into the key elements of sports event planning, including budgeting, logistics, and scheduling. We'll also discuss the importance of contingency plans to tackle unexpected challenges, ensuring that your event runs smoothly from start to finish.",
+    "content": "Successful sports event planning requires meticulous attention to detail. From selecting the ideal venue to creating a compelling marketing strategy, event managers play a pivotal role in orchestrating unforgettable experiences for both athletes and fans. In this blog post, we'll delve deep into the key elements of sports event planning, including budgeting, logistics, and scheduling. We'll also discuss the importance of contingency plans to tackle unexpected challenges, ensuring that your event runs smoothly from start to finish. Sports events bring people together like few other experiences can. They create memories that last a lifetime, and behind the scenes, there's a lot that goes into making them successful. John Doe, a seasoned event manager, shares his insights on the critical elements that contribute to the success of sports event planning. With 15 comments and a wealth of experience, this post is a must-read for anyone in the sports event industry.",
+    "date": "21 Feb",
     "image_url": "https://i.ibb.co/6yNQbKK/Copy-of-Event-In-Post-Event-Logo-Overlay-135x135-2020-08-03-T151030-738.png"
   },
   {
-    "profile_picture": "https://i.ibb.co/user2-profile.jpg",
+    "profile_picture": "https://i.ibb.co/0mGRcfr/1-intro-photo-final.jpg",
     "name": "Jane Smith",
     "comments_quantity": 10,
     "title": "How Technology is Revolutionizing Sports Event Management",
-    "content": "The sports event management landscape is undergoing a technological revolution. In this blog post, we'll explore the innovative ways in which technology is transforming the industry. From mobile ticketing and contactless payments to augmented reality experiences for fans, we'll discuss how these advancements are enhancing the overall event experience while simplifying the planning process for managers.",
+    "content": "The sports event management landscape is undergoing a technological revolution. In this blog post, we'll explore the innovative ways in which technology is transforming the industry. From mobile ticketing and contactless payments to augmented reality experiences for fans, we'll discuss how these advancements are enhancing the overall event experience while simplifying the planning process for managers. Jane Smith, a tech-savvy expert in sports event management, takes us on a journey through the exciting world of technological advancements in the industry. With 10 comments, it's clear that readers are eager to learn about how technology is changing the game in sports events.",
+    "date": "11 Jan",
     "image_url": "https://i.ibb.co/9Y2cQKX/Sports-Management-and-the-Evolution-of-Sports-Technology-transformed.png"
-  },
+}
+,
   {
-    "profile_picture": "https://i.ibb.co/user3-profile.jpg",
+    "profile_picture": "https://i.ibb.co/RpV4WZx/team-1.jpg",
     "name": "Mike Johnson",
     "comments_quantity": 8,
     "title": "Creating Memorable Fan Experiences: Best Practices in Fan Engagement",
-    "content": "Fans are the lifeblood of any sports event, and creating memorable experiences for them is paramount. In this post, we'll share a variety of best practices for fan engagement, including pre-game activities, interactive in-game entertainment, and post-game celebrations. By implementing these strategies, event managers can forge deeper connections between fans and their favorite teams.",
+    "content": "Fans are the lifeblood of any sports event, and creating memorable experiences for them is paramount. In this post, we'll share a variety of best practices for fan engagement, including pre-game activities, interactive in-game entertainment, and post-game celebrations. By implementing these strategies, event managers can forge deeper connections between fans and their favorite teams. Mike Johnson, a fan engagement guru, offers valuable insights into the world of creating unforgettable experiences for sports fans. With 8 comments, it's clear that readers are eager to learn how to enhance fan engagement at their events.",
+    "date": "15 Aug",
     "image_url": "https://i.ibb.co/K7fKrmB/Stadium-fan-experience-2.jpg"
   },
   {
-    "profile_picture": "https://i.ibb.co/user4-profile.jpg",
+    "profile_picture": "https://i.ibb.co/w6Qcr7K/speaker-1-v2.jpg",
     "name": "Sarah Adams",
     "comments_quantity": 5,
     "title": "Managing Sports Events on a Budget: Tips for Small Organizations",
-    "content": "Event management isn't always about big budgets. Small organizations can successfully host sports events with careful budgeting and resource allocation. In this blog post, we'll share practical tips for managing sports events on a budget, from cost-effective marketing strategies to efficient logistics planning.",
+    "content": "Event management isn't always about big budgets. Small organizations can successfully host sports events with careful budgeting and resource allocation. In this blog post, we'll share practical tips for managing sports events on a budget, from cost-effective marketing strategies to efficient logistics planning. Sarah Adams, an expert in cost-effective event management, provides valuable advice for small organizations looking to make a big impact. With 5 comments, it's clear that her tips are resonating with readers looking to maximize their budget for sports events.",
+    "date": "05 Oct",
     "image_url": "https://i.ibb.co/PDdbRCk/CDS-blogpost-163-b.webp"
   },
   {
-    "profile_picture": "https://i.ibb.co/user5-profile.jpg",
+    "profile_picture": "https://i.ibb.co/f9VXNMj/john-doe.jpg",
     "name": "Chris Wilson",
     "comments_quantity": 12,
     "title": "The Future of Sports Event Management: Trends to Watch",
-    "content": "The sports event management industry is evolving rapidly. In this forward-looking blog post, we'll explore the future of sports event management, including emerging trends such as virtual events, augmented reality experiences, and data analytics. Stay ahead of the curve and discover how these innovations will shape the industry in the coming years.",
+    "content": "The sports event management industry is evolving rapidly. In this forward-looking blog post, we'll explore the future of sports event management, including emerging trends such as virtual events, augmented reality experiences, and data analytics. Stay ahead of the curve and discover how these innovations will shape the industry in the coming years. Chris Wilson, a visionary in sports event management, takes us on a journey into the future of the industry. With 12 comments, it's evident that readers are excited to learn about the latest trends that will shape the sports event landscape.",
+    "date": "04 Feb",
     "image_url": "https://i.ibb.co/XtzW3Rb/group-playing-esports.jpg"
   }
 ]
