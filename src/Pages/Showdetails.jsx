@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { NavLink, useLoaderData, useParams } from "react-router-dom";
+import Swal from "sweetalert2";
 
 const Showdetails = () => {
   const [data,setdata]=useState({})
@@ -9,20 +10,29 @@ console.log(id,card);
 
 
 useEffect(() => {
- 
   const details = card.find(carditem => carditem.id === id);
   console.log(details);
  setdata(details)
 }, [card, id]);
 
+const handlepay =()=>{
+  Swal.fire({
+    position: 'top-end',
+    icon: 'success',
+    title: 'Done',
+    showConfirmButton: false,
+    timer: 1500
+  })
+}
+
   return (
     <div>
-       <div className="flex  justify-center items-center mt-16">
-      <div className=" w-3/6">
-<h1 className="text-2xl font-bold  mb-5" > {data.name} </h1>   
+       <div className="flex h-[78vh] gap-7 justify-center items-center mt-16">
+      <div className=" w-3/6  text-white">
+<h1 className="text-4xl font-bold  mb-5" > {data.name} </h1>   
 <p> {data.shortDescription} </p> 
 <p> {data.detailedInformation} </p> 
-<NavLink className="mt-5 btn bg-[#F9A51A] border-none  px-6 "> {data.button
+<NavLink onClick={handlepay} className="mt-5 btn bg-green-400 border-none  px-6 "> {data.button
 } </NavLink>    
       </div>
 <div data-aos="flip-left"

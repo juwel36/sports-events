@@ -3,6 +3,7 @@ import Navbar from "../Components/Navbar";
 
 
 
+
 const Root = () => {
   return (
    <div className="bg-black">
@@ -10,6 +11,7 @@ const Root = () => {
      <div className="max-w-6xl mx-auto">
 <Outlet></Outlet>
     </div>
+
 
    </div>
   );

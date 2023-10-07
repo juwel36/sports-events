@@ -2,9 +2,15 @@
 import { FaPhone,FaSearchLocation } from 'react-icons/fa';
 import { AiOutlineMail } from 'react-icons/ai';
 import Footer from '../Components/Footer';
+import Swal from 'sweetalert2';
 
 
 const Contact = () => {
+
+const handlesendmassege =()=>{
+  Swal.fire('Send your message Succesfully')
+}
+
   return (
     <div>
       <div className="flex  my-10 gap-6 ">
@@ -58,7 +64,7 @@ const Contact = () => {
 </div>
 <div className='mt-8'>
   <textarea className='bg-gray-800 w-full p-2 text-white h-36 ' name="" placeholder='Message' id="" cols="30" rows="10"></textarea>
-  <button className='btn mt-3 btn-secondary w-full'> Send Message </button>
+  <button onClick={handlesendmassege} className='btn mt-3 bg-green-400 border-none w-full'> Send Message </button>
 </div>
 
 
