@@ -2,10 +2,11 @@ import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Authprovider/Authprovider";
 import { useContext, useState } from "react";
 import Swal from "sweetalert2";
+import gpng from '../../assets/google.png'
 
 
 const Regestraion = () => {
-  const {createuser} =useContext(AuthContext)
+  const {createuser,googleAuth} =useContext(AuthContext)
   const [showerror,setshowerror]=useState(null)
   const navigate=useNavigate()
 
@@ -54,6 +55,23 @@ navigate('/')
     timer: 1500
   })
 })
+}
+
+const handlegoogleLogin = ()=>{
+  googleAuth()
+  .then(res=> {
+    Swal.fire({
+      position: 'top-end',
+      icon: 'success',
+      title: ' Successfully Log In',
+      showConfirmButton: false,
+      timer: 1500
+    })
+    navigate('/')
+  })
+  .catch(error=>{
+    console.log(error);
+  })
 
 }
 
@@ -87,6 +105,16 @@ navigate('/')
           <button className="btn bg-gray-700 text-white">Login</button>
         </div>
       </form>
+      <div>
+      <button onClick={handlegoogleLogin}
+  className="mb-3 flex select-none bg-slate-200 mx-auto items-center gap-3 rounded-lg border-b-2 border-blue-gray-500 py-3.5 px-7 text-center align-middle font-sans text-sm font-bold uppercase text-blue-gray-500 transition-all hover:opacity-75 focus:ring focus:ring-blue-gray-200 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+  type="button"
+  data-ripple-dark="true"
+>
+  <img src={gpng} alt="metamask" className="h-6 w-6" />
+  Continue with Google
+</button>
+      </div>
     </div>
   </div>
 </div>

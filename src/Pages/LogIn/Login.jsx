@@ -5,7 +5,7 @@ import Swal from "sweetalert2";
 import gpng from '../../assets/google.png'
 
 const Login = () => {
-  const {Loggeduser,googleAuth,FacebookAuth }=useContext(AuthContext)
+  const {Loggeduser,googleAuth }=useContext(AuthContext)
   const navigate=useNavigate()
   const [Error, setError] = useState("");
   
@@ -43,7 +43,20 @@ Loggeduser(email,password)
 }
 
 const handlegoogleLogin = ()=>{
-
+  googleAuth()
+  .then(res=> {
+    Swal.fire({
+      position: 'top-end',
+      icon: 'success',
+      title: ' Successfully Log In',
+      showConfirmButton: false,
+      timer: 1500
+    })
+    navigate('/')
+  })
+  .catch(error=>{
+    console.log(error);
+  })
 
 }
 

@@ -1,36 +1,59 @@
-import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "firebase/auth";
-import { createContext } from "react";
+import { GoogleAuthProvider, createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut } from "firebase/auth";
+import { createContext, useEffect, useState } from "react";
 import auth from "../firebase/Firebase";
 
 export const AuthContext = createContext(null)
 
 const Authprovider = ({ children }) => {
+  const [user,setuser]=useState(null)
+  const provider = new GoogleAuthProvider();
+  const [loading,setloading]=useState(true)
+
 
   const createuser=(email,password)=>{
-    // setloading(true)
+    setloading(true)
   return createUserWithEmailAndPassword(auth,email,password)
   }
   
   const Loggeduser = (email,password)=>{
-    // setloading(true)
+    setloading(true)
     return signInWithEmailAndPassword(auth,email,password)
   }
   
   const logOut =()=>{
-    // setloading(true)
+    setloading(true)
   return signOut(auth)
   
   }
 
+  useEffect(()=>{
+    const unSubscribe = onAuthStateChanged(auth,currentuser=>{
+    
+      console.log("hiiiiiiiiiiii",currentuser);
+    setuser(currentuser)
+    setloading(false)
+    
+    })
+    return()=>{
+      unSubscribe();
+    }
+    
+    },[])
+
+
+const googleAuth = ()=>{
+  setloading(true)
+return signInWithPopup(auth,provider)
+
+}
 
   const authInfo = {
     createuser,
     Loggeduser,
     logOut,
-    // user ,
-    // googleAuth,
-    // loading,
-    // FacebookAuth 
+    user ,
+    googleAuth,
+    loading,
   }
 
   return (
