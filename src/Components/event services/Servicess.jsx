@@ -17,10 +17,10 @@ const handleshowdetails =(id)=>{
     <div>
       <h1 className="text-4xl text-white text-center mt-10 mb-2 font-mono  ">Event Services</h1>
       <p className="border-b-4 w-80 mx-auto border-red-500 mb-8"></p>
-      <div className="grid grid-cols-3 gap-4 mb-10">
+      <div  className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
         {card.map((data) => (
           <div key={data.id}>
-            <div className="card card-compact h-96 bg-base-100 shadow-xl"><figure><img className="h-56 w-96" src={data.image} alt="image" /></figure>
+            <div data-aos="flip-left" className="card card-compact h-96 bg-base-100 shadow-xl"><figure><img className="h-56 w-96" src={data.image} alt="image" /></figure>
               <div className="card-body">
                 <h2 className="card-title">{data.name}</h2>
                 <p>{data.shortDescription}</p>

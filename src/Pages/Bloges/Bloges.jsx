@@ -4,6 +4,9 @@ import img1 from '../../assets/shutterstock_320584622.jpg'
 import img2 from '../../assets/B5-taken-from-Leverage-Edu-Sports-Management-Courses.jpg'
 import img3 from '../../assets/sport_manage.jpeg-900x510.jpg'
 import { FaCalendarCheck } from 'react-icons/fa';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import AOS CSS
+import { useEffect } from 'react';
 
 const Bloges = () => {
   const blogdata = useLoaderData()
@@ -12,16 +15,22 @@ const Bloges = () => {
     setexpanded(!expanded);
   };
 
+  useEffect(() => {
+    AOS.init();
+  }, []);
+  
 
   return (
-    <div className=" grid grid-cols-6 gap-3 mt-16" >
-      <div className=" text-white col-span-4">
+    <div className=" flex flex-col lg:flex-row gap-3" >
+      <div className=" text-white lg:w-4/6">
         <p className="text-2xl text-center mb-10 font-semibold ">Blogs</p>
-        <div className=" mb-10 grid grid-cols-1 gap-10">
+        <div  className=" mb-10 grid grid-cols-1 gap-10">
           {blogdata.map((data, idx) => (
             <div key={idx}>
-              <div className="card card-compact  shadow-xl">
-                <figure className="relative">
+              <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" className="card card-compact  shadow-xl">
+                <figure  className="relative">
                   <img className="h-72 w-full" src={data.image_url} alt="image" />
                   <div className="absolute top-2  left-2  bg-green-400 p-3">
                     <p className="text-black">  {data.date}</p>
@@ -45,7 +54,7 @@ const Bloges = () => {
 
 
                   <div className="flex items-center gap-8 my-4">
-                    <div className="flex items-center gap-3">   <img className="w-11 rounded-full" src={data.profile_picture} alt="" />
+                    <div  className="flex items-center gap-3">   <img className="w-11 rounded-full" src={data.profile_picture} alt="" />
                       <p>{data.name}</p>
                     </div>
                     <div>
@@ -60,11 +69,11 @@ const Bloges = () => {
         </div>
       </div>
       {/*  */}
-      <div className=" col-span-2">
+      <div className=" lg:w-2/6">
 <p className="text-white text-2xl text-center my-5 ">Recent Post</p>
 
-<div className="flex">
-<div>
+<div data-aos="fade-up-left" className="flex">
+<div data-aos="fade-right">
   <img className="w-96 h-28 " src={img1} alt="" />
 </div>
 <div className="text-white pl-2">
@@ -72,7 +81,7 @@ const Bloges = () => {
 <h1 className="font-mono"> Managing the Game: A Deep Dive into Sports Business and Leadership </h1>
 </div>
 </div>
-<div className="flex mt-5">
+<div data-aos="fade-up-left" className="flex mt-5">
 <div>
   <img className="w-80" src={img3} alt="" />
 </div>
@@ -82,7 +91,7 @@ const Bloges = () => {
 </div>
 </div>
 <div className="flex mt-5">
-<div>
+<div data-aos="fade-up-left">
   <img className="w-80" src={img2} alt="" />
 </div>
 <div className="text-white pl-2">

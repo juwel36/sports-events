@@ -27,8 +27,8 @@ const handlepay =()=>{
 
   return (
     <div>
-       <div className="flex h-[78vh] gap-7 justify-center items-center mt-16">
-      <div className=" w-3/6  text-white">
+       <div className="flex flex-col md:flex-col lg:flex-row lg:h-[78vh] gap-7 justify-center items-center mt-16">
+      <div className=" lg:w-3/6  text-white">
 <h1 className="text-4xl font-bold  mb-5" > {data.name} </h1>   
 <p> {data.shortDescription} </p> 
 <p> {data.detailedInformation} </p> 
@@ -37,7 +37,7 @@ const handlepay =()=>{
       </div>
 <div data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" className="w-2/6 ">
+     data-aos-duration="2000" className="  lg:w-2/6 ">
 <img className="w-96 h-96 rounded-lg" src={data.image} alt="" />
 </div>
 

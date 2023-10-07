@@ -8,8 +8,9 @@ import Showdetails from "../Pages/Showdetails";
 import Bloges from "../Pages/Bloges/Bloges";
 import Contact from "../Pages/Contact";
 import Regestraion from "../Pages/Regestraion/Regestraion";
-import PrivetRoutes from "../PrivetRoutes/PrivetRoutes";
+// import PrivetRoutes from "../PrivetRoutes/PrivetRoutes";
 import ErrorPage from "../Components/ErrorPage";
+import PrivetRoutes from "../PrivetRoutes/PrivetRoutes";
 
 
   const router = createBrowserRouter([
@@ -35,12 +36,12 @@ loader: ()=> fetch('/Data.json')
 {
   path: '/seedetails/:id',
   element:<PrivetRoutes><Showdetails></Showdetails></PrivetRoutes> ,
-  loader : ()=> fetch('../Data.json')
+  loader : ()=> fetch('/Data.json')
 },
 {
   path: '/blogs',
   element: <PrivetRoutes><Bloges></Bloges></PrivetRoutes> ,
-loader: ()=> fetch('Blog.json')
+loader: ()=> fetch('/Blog.json')
 },
 {
   path: '/contact',

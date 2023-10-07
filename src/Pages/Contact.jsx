@@ -13,8 +13,8 @@ const handlesendmassege =()=>{
 
   return (
     <div>
-      <div className="flex  my-10 gap-6 ">
-<div className="  bg-green-400 w-3/6 p-10">
+      <div className="flex flex-col lg:flex-row my-10 gap-6 ">
+<div className="  bg-green-400 lg:w-3/6 p-10">
 <p className="text-4xl pb-5"> Get in Contact with Our Team</p>
 <p>Welcome to our Sports Management website! We're thrilled to connect with you and assist with any inquiries or concerns you may have. Our team is dedicated to providing you with top-notch sports management services, and we value your feedback and questions. Please feel free to get in touch with us using the following contact information:</p>
 <div>
@@ -50,7 +50,7 @@ const handlesendmassege =()=>{
 </div>
 </div>
 
-<div className='w-3/6'>
+<div className='lg:w-3/6'>
 <p className='text-white text-3xl text-center'>Have Questions? Contact Us</p>
   <p className='text-white text-sm pt-6'> We appreciate your interest in our Sports Management services and are here to provide you with answers, support, and assistance. Whether you have inquiries about our services, need help with a particular aspect of sports management, or simply want to connect with our team, you've come to the right place.</p>
 <div>

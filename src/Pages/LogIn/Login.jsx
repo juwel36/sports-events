@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Authprovider/Authprovider";
 import Swal from "sweetalert2";
 import gpng from '../../assets/google.png'
@@ -8,7 +8,7 @@ const Login = () => {
   const {Loggeduser,googleAuth }=useContext(AuthContext)
   const navigate=useNavigate()
   const [Error, setError] = useState("");
-  
+  const location=useLocation()
 
 
 const handlelogin = (e)=>{

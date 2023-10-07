@@ -39,7 +39,7 @@ const Navbar = () => {
               {category}
             </ul>
           </div>
-          <p className="normal-case text-white text-xl">AGJ<span className="text-base">sports</span></p>
+          <p className="normal-case text-white text-2xl">AGJ<span className="text-base">sports</span></p>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal text-white px-1">

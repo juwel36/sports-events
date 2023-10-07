@@ -25,6 +25,12 @@ const Authprovider = ({ children }) => {
   return signOut(auth)
   
   }
+  
+  const googleAuth = ()=>{
+    setloading(true)
+  return signInWithPopup(auth,provider)
+  
+  }
 
   useEffect(()=>{
     const unSubscribe = onAuthStateChanged(auth,currentuser=>{
@@ -41,11 +47,6 @@ const Authprovider = ({ children }) => {
     },[])
 
 
-const googleAuth = ()=>{
-  setloading(true)
-return signInWithPopup(auth,provider)
-
-}
 
   const authInfo = {
     createuser,
