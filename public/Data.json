@@ -1,24 +1,24 @@
 [
   {
-    "id": 1,
-    "name": "Football Match - Premier League",
+    "id": "1",
+    "name": "Football Match - Js League",
     "image": "https://i.ibb.co/C8BSY71/71ee8749-5134-4136-a3f5-3bf35968ac11.jpg",
     "price": "50",
-    "shortDescription": "Watch a thrilling Premier League football match live!",
-    "detailedInformation": "Experience the excitement of Premier League football with top teams battling for supremacy. Enjoy world-class talent and the electric atmosphere in the stadium.",
+    "shortDescription": "Watch a thrilling JS League football match live!",
+    "detailedInformation": "Experience the excitement of JS League football with top teams battling for supremacy. Enjoy world-class talent and the electric atmosphere in the stadium.",
     "button": "Buy Tickets"
   },
   {
-    "id": 2,
-    "name": "Cricket T20 International",
-    "image": "https://i.ibb.co/BfvQXv3/icc-men-s-cricket-world-cup-2023-captains.jpg",
-    "price": "40",
-    "shortDescription": "Witness the fast-paced action of T20 cricket!",
-    "detailedInformation": "Don't miss the excitement of T20 International cricket. Watch your favorite teams go head-to-head in a high-intensity format that guarantees thrilling moments.",
-    "button": "Get Tickets"
-  },
+    "id": "2",
+    "name": "Sylhet Cycling Event 2023",
+    "image": "https://i.ibb.co/VpG6y0Z/Whats-App-Image-2023-10-07-at-02-33-12-f4336a30.jpg",
+    "price": "25",
+    "shortDescription": "Experience the thrill of cycling in the scenic landscapes of Sylhet!",
+    "detailedInformation": "Join us for the Sylhet Cycling Event 2023, a thrilling cycling experience through the beautiful landscapes of Sylhet. Whether you're a seasoned cyclist or a beginner, this event offers a variety of routes suitable for all levels of cyclists. \n\nDate: August 20, 2023\nTime: 8:00 AM\nVenue: Sylhet City, Sylhet, Bangladesh\n\nExplore the lush green hills, winding roads, and serene tea gardens as you pedal your way through Sylhet's picturesque scenery. This event promises an unforgettable day of cycling, camaraderie, and adventure. Grab your cycling gear and be a part of this exciting event!\n",
+    "button": "Register Now"
+},
   {
-    "id": 3,
+    "id": "3",
     "name": "Tennis Grand Slam - Wimbledon",
     "image": "https://i.ibb.co/PZjJGdR/16893426623417.jpg",
     "price": "75",
@@ -27,8 +27,8 @@
     "button": "Book Seats"
   },
   {
-    "id": 4,
-    "name": "Basketball Championship - NBA Finals",
+    "id": "4",
+    "name": "Basketball Championship - Finals",
     "image": "https://i.ibb.co/xMYX4G5/3819341-1445314841.jpg",
     "price": "60",
     "shortDescription": "Cheer for your team in the NBA Finals!",
@@ -36,7 +36,7 @@
     "button": "Purchase Passes"
   },
   {
-    "id": 5,
+    "id": "5",
     "name": "Horse Racing Derby",
     "image": "https://i.ibb.co/mypTkPZ/kentucky-derby-names-2021.jpg",
     "price": "60",
@@ -46,7 +46,7 @@
 }
 ,
   {
-    "id": 6,
+    "id": "6",
     "name": "Golf Masters Tournament",
     "image": "https://i.ibb.co/4svt259/Tiger-Woods-040522-Getty-FTR.jpg",
     "price": "55",
