@@ -5,6 +5,7 @@ import Servicess from "../../Components/event services/Servicess";
 import Footer from "../../Components/Footer";
 
 import CountSection from "../../Components/CountSection";
+import Succesfullevents from "../../Components/Succesfullevents";
 
 
 const Home = () => {
@@ -15,8 +16,8 @@ const alldata=useLoaderData()
       
 <Banner></Banner>
 <Servicess card={alldata}></Servicess>
-
 <CountSection></CountSection>
+<Succesfullevents></Succesfullevents>
 <Footer></Footer>
     </div>
   );

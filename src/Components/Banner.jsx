@@ -17,8 +17,8 @@ const Banner = () => {
 <div data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000" className='lg:w-3/6'>
-<h1 className='text-6xl'>Rise of Sports <span className='text-3xl'>Events</span> </h1>
-<p className='mt-4'>Dive into the world of competitive Sports tournaments</p>
+<h1 className='text-6xl'>Rise of Sports  </h1>
+<p className='mt-4'>Dive into the world of competitive Sports tournaments <span className='text-xl'>Events</span> </p>
 </div>
 <div data-aos="fade-down"
      data-aos-easing="linear"

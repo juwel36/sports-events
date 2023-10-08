@@ -102,7 +102,7 @@ const handlegoogleLogin = ()=>{
           <p> {showerror} </p>
         </div>
         <div className="form-control mt-6">
-          <button className="btn bg-gray-700 text-white">Login</button>
+          <button className="btn bg-gray-700 text-white">Regstraion</button>
         </div>
       </form>
       <div>
