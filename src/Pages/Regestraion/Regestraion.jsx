@@ -6,15 +6,17 @@ import gpng from '../../assets/google.png'
 
 
 const Regestraion = () => {
-  const {createuser,googleAuth} =useContext(AuthContext)
+  const {createuser,googleAuth,updateprofile} =useContext(AuthContext)
   const [showerror,setshowerror]=useState(null)
   const navigate=useNavigate()
 
 const handleregestraion = e =>{
   e.preventDefault()
+  const name = e.target.name.value;
+  const image = e.target.image.value;
   const email = e.target.email.value;
   const password = e.target.password.value;
-console.log(email,password);
+console.log(email,password,name,image);
 
 setshowerror('')
 if (password.length < 6) {
@@ -35,15 +37,18 @@ if (!/[!@#$%^&*()_+{}\[\]:;<>,.?~\\-]/.test(password)) {
 
 createuser(email,password)
 .then(res=> {
-  console.log(res.user);
-Swal.fire({
-  position: 'top-end',
-  icon: 'success',
-  title: ' Successfully Regestered',
-  showConfirmButton: false,
-  timer: 1500
+  updateprofile(name,image)
+.then(()=>{
+  Swal.fire({
+    position: 'top-end',
+    icon: 'success',
+    title: ' Successfully Regestered',
+    showConfirmButton: false,
+    timer: 1500
+  })
+  navigate('/')
 })
-navigate('/')
+
 })
 .catch(error=>{
   console.log(error);
@@ -77,23 +82,35 @@ const handlegoogleLogin = ()=>{
 
   return (
     <div>
-       <div className="hero h-[89vh] ">
+       <div className=" ">
   <div className="hero-content flex-col ">
     <div className="text-center lg:text-left">
       <h1 className="text-5xl text-white font-bold">Regestraion now!</h1>
      
     </div>
     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-      <form onSubmit={handleregestraion} className="card-body">
+      <form onSubmit={handleregestraion} className="p-1 px-4">
         <div className="form-control">
           <label className="label">
-            <span className="label-text">Email</span>
+            <span className="label-text font-semibold">Your Name</span>
+          </label>
+          <input type="text" name="name" placeholder="name" className="input input-bordered"  />
+        </div>
+        <div className="form-control">
+          <label className="label">
+            <span className="label-text font-semibold">Image URL</span>
+          </label>
+          <input type="text" name="image" placeholder="image url" className="input input-bordered" />
+        </div>
+        <div className="form-control">
+          <label className="label">
+            <span className="label-text font-semibold">Email</span>
           </label>
           <input type="email" name="email" placeholder="email" className="input input-bordered" required />
         </div>
         <div className="form-control">
           <label className="label">
-            <span className="label-text">Password</span>
+            <span className="label-text font-semibold">Password</span>
           </label>
           <input type="password" name="password" placeholder="password" className="input input-bordered" required />
           <label className="label">

@@ -1,7 +1,7 @@
 
--Website Name **AGJ sports** 
+ ##  Website Name - " AGJ sports "
 
--Website live link:  
+-Website live link:  [https://sports-event-managment36.web.app](https://sports-event-managment36.web.app)
 
 
 # Project Features
@@ -18,3 +18,10 @@ Create a dedicated section to showcase successful past events, allowing users to
 Implement robust registration validation that checks for password length, capital letters, and special characters, ensuring that users create strong and secure passwords.Display error messages when login credentials are incorrect,Offer a "Login with Google" option to streamline the registration and login process.
 - **User Profile Integration & AOS Package Integration :**
 Once logged in, display the user's name, profile picture, and a logout button in the website header for a personalized user experience.after log out show log in button.Implement the AOS package to add smooth and eye-catching animations to website elements, enhancing user engagement and the overall user experience.
+
+
+
+
+
+
+
