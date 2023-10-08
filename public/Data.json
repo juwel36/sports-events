@@ -4,6 +4,7 @@
     "name": "Football Match - Js League",
     "image": "https://i.ibb.co/C8BSY71/71ee8749-5134-4136-a3f5-3bf35968ac11.jpg",
     "price": "50",
+    "location": "Sylhet District Stadium,Sylhet,Bangladesh ",
     "shortDescription": "Watch a thrilling JS League football match live!",
     "detailedInformation": "Experience the excitement of JS League football with top teams battling for supremacy. Enjoy world-class talent and the electric atmosphere in the stadium.",
     "button": "Buy Tickets"
@@ -13,6 +14,7 @@
     "name": "Sylhet Cycling Event 2023",
     "image": "https://i.ibb.co/VpG6y0Z/Whats-App-Image-2023-10-07-at-02-33-12-f4336a30.jpg",
     "price": "25",
+    "location": "Bondor Bazar,Sylhet,Bangladesh ",
     "shortDescription": "Experience the thrill of cycling in Sylhet!",
     "detailedInformation": "Join us for the Sylhet Cycling Event 2023, a thrilling cycling experience through the beautiful landscapes of Sylhet. Whether you're a seasoned cyclist or a beginner, this event offers a variety of routes suitable for all levels of cyclists. \n\nDate: August 20, 2023\nTime: 8:00 AM\nVenue: Sylhet City, Sylhet, Bangladesh\n\nExplore the lush green hills, winding roads, and serene tea gardens as you pedal your way through Sylhet's picturesque scenery. This event promises an unforgettable day of cycling, camaraderie, and adventure. Grab your cycling gear and be a part of this exciting event!\n",
     "button": "Register Now"
@@ -22,6 +24,7 @@
     "name": "Tennis Grand Slam - Wimbledon",
     "image": "https://i.ibb.co/PZjJGdR/16893426623417.jpg",
     "price": "75",
+    "location": "London; England, United Kingdom",
     "shortDescription": "Experience the elegance of Wimbledon tennis.",
     "detailedInformation": "Enjoy the grace and precision of tennis at its finest. Wimbledon is known for its tradition, world-class players, and epic matches on grass courts.",
     "button": "Book Seats"
@@ -31,6 +34,7 @@
     "name": "Basketball Championship - Finals",
     "image": "https://i.ibb.co/xMYX4G5/3819341-1445314841.jpg",
     "price": "60",
+    "location": "Arena in San Francisco, California",
     "shortDescription": "Cheer for your team in the NBA Finals!",
     "detailedInformation": "Witness the intensity of the NBA Finals. See the best basketball players in the world compete for the championship in an electrifying atmosphere.",
     "button": "Purchase Passes"
@@ -40,6 +44,7 @@
     "name": "Horse Racing Derby",
     "image": "https://i.ibb.co/mypTkPZ/kentucky-derby-names-2021.jpg",
     "price": "60",
+    "location": "Randwick Racecourse, Sydney",
     "shortDescription": "Witness the excitement at the Horse Racing Derby!",
     "detailedInformation": "Experience the thrill of horse racing as majestic thoroughbreds compete for glory. Feel the excitement of the race, place your bets, and cheer for your favorite horses.",
     "button": "Book Your Tickets"
@@ -50,6 +55,7 @@
     "name": "Golf Masters Tournament",
     "image": "https://i.ibb.co/4svt259/Tiger-Woods-040522-Getty-FTR.jpg",
     "price": "55",
+    "location": "Golf club in Augusta, Georgia",
     "shortDescription": "Enjoy the tranquility of golf at the Masters Tournament.",
     "detailedInformation": "Watch golf's greatest players compete at the prestigious Masters Tournament. Marvel at their skill and precision on the beautiful Augusta National Golf Club course.",
     "button": "Get Passes"

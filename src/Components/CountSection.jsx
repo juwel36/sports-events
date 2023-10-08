@@ -23,11 +23,11 @@ const CountSection = () => {
   const Date6 = Date.now() + 25 * 24 * 44 * 60 * 1000;  
 
   return (
-    <div className='mt-36  lg:p-0'>
+    <div className='mt-36 p-3 lg:p-0'>
       <p className='text-3xl text-white text-center'>Game Day Countdown: Get Ready for the Action</p>
       <p className="border-b-4 w-96 mt-5 mx-auto border-red-500 mb-8"></p>
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 mb-36'>
-     <div className='text-white  flex gap-4 items-center'>
+     <div className='text-white bg-gray-900 flex gap-4 items-center'>
       <p className='text-4xl' > JS League<span className='text-xs'> Event start in</span>  </p>
   <span className='text-3xl text-white   p-2 rounded-lg'>
   <Countdown
@@ -36,7 +36,7 @@ const CountSection = () => {
       />
   </span>
      </div>
-     <div data-aos="zoom-in-up" className='text-white  flex gap-4 items-center'>
+     <div data-aos="zoom-in-up" className='text-white bg-gray-800 px-2 rounded-lg flex gap-4 items-center'>
       <p className='text-4xl' > Sylhet Cycling <span className='text-xs'> Event start in</span>  </p>
   <span className='text-3xl text-white   p-2 rounded-lg'>
   <Countdown
@@ -45,7 +45,7 @@ const CountSection = () => {
       />
   </span>
      </div>
-     <div data-aos="zoom-in-up" className='text-white  flex gap-4 items-center'>
+     <div data-aos="zoom-in-up" className='text-white bg-gray-800 px-2 rounded-lg flex gap-4 items-center'>
       <p className='text-4xl' > Tennis Grand <span className='text-xs'> Event start in</span>  </p>
   <span className='text-3xl text-white   p-2 rounded-lg'>
   <Countdown
@@ -54,7 +54,7 @@ const CountSection = () => {
       />
   </span>
      </div>
-     <div data-aos="zoom-in-up" className='text-white  flex gap-4 items-center'>
+     <div data-aos="zoom-in-up" className='text-white bg-gray-900 px-2 rounded-lg flex gap-4 items-center'>
       <p className='text-3xl' > Basketball Finals<span className='text-xs'> Event start in</span>  </p>
   <span className='text-3xl text-white   p-2 rounded-lg'>
   <Countdown
@@ -63,7 +63,7 @@ const CountSection = () => {
       />
   </span>
      </div>
-     <div data-aos="zoom-in-up" className='text-white  flex gap-4 items-center'>
+     <div data-aos="zoom-in-up" className='text-white bg-gray-900 px-2 rounded-lg flex gap-4 items-center'>
       <p className='text-4xl' > Horse Racing<span className='text-xs'> Event start in</span>  </p>
   <span className='text-3xl text-white   p-2 rounded-lg'>
   <Countdown
@@ -72,7 +72,7 @@ const CountSection = () => {
       />
   </span>
      </div>
-     <div data-aos="zoom-in-up" className='text-white  flex gap-4 items-center'>
+     <div data-aos="zoom-in-up" className='text-white bg-gray-800 px-2 rounded-lg flex gap-4 items-center'>
       <p className='text-3xl' > Golf Tournament<span className='text-xs'> Event start in</span>  </p>
   <span className='text-3xl text-white   p-2 rounded-lg'>
   <Countdown

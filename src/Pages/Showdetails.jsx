@@ -1,6 +1,10 @@
 import { useEffect, useState } from "react";
 import { NavLink, useLoaderData, useParams } from "react-router-dom";
 import Swal from "sweetalert2";
+import { FaSearchLocation } from 'react-icons/fa';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
 
 const Showdetails = () => {
   const [data,setdata]=useState({})
@@ -8,12 +12,18 @@ const Showdetails = () => {
   const card= useLoaderData()
 console.log(id,card);
 
+useEffect(() => {
+  AOS.init();
+}, []);
+
 
 useEffect(() => {
   const details = card.find(carditem => carditem.id === id);
   console.log(details);
  setdata(details)
 }, [card, id]);
+
+
 
 const handlepay =()=>{
   Swal.fire({
@@ -32,6 +42,7 @@ const handlepay =()=>{
 <h1 className="text-4xl font-bold  mb-5" > {data.name} </h1>   
 <p> {data.shortDescription} </p> 
 <p> {data.detailedInformation} </p> 
+<p className="flex items-center my-2 gap-3"> <FaSearchLocation></FaSearchLocation> {data.location} </p>
 <NavLink onClick={handlepay} className="mt-5 btn bg-green-400 border-none  px-6 "> {data.button
 } </NavLink>    
       </div>

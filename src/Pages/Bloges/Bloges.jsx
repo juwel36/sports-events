@@ -5,7 +5,7 @@ import img2 from '../../assets/B5-taken-from-Leverage-Edu-Sports-Management-Cour
 import img3 from '../../assets/sport_manage.jpeg-900x510.jpg'
 import { FaCalendarCheck } from 'react-icons/fa';
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // Import AOS CSS
+import 'aos/dist/aos.css'; 
 import { useEffect } from 'react';
 
 const Bloges = () => {
