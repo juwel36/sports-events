@@ -21,8 +21,8 @@ const Bloges = () => {
   
 
   return (
-    <div className=" flex flex-col lg:flex-row gap-3" >
-      <div className=" text-white lg:w-4/6">
+    <div className=" flex flex-col lg:flex-row gap-3" style={{ overflowX: "hidden" }} >
+      <div className=" text-white  lg:w-4/6">
         <p className="text-2xl text-center mb-10 font-semibold ">Blogs</p>
         <div  className=" mb-10 grid grid-cols-1 gap-10">
           {blogdata.map((data, idx) => (
